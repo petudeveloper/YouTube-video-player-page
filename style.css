@@ -7,6 +7,14 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
+.forgotToPutALink{
+    cursor: pointer;
+}
+
+.fas{
+    cursor: pointer;
+}
+
 ul {
     list-style: none;
     margin: 0;
@@ -92,6 +100,7 @@ ul {
     margin-right: 30px;
     font-size: 1.2rem;
     border-radius: 50%;
+    cursor: pointer;
 }
 /* FIN Barra de Navegacion */
 
@@ -177,6 +186,72 @@ ul {
     }
     /* FIN Video Container */
 
+    /* INICIO comments section*/
+
+    /* FIN comments section*/
+        #comments{
+            margin-top: 25px;
+        }
+        #firstRowComments{
+            display: flex;
+            font-size: 16px;
+            align-items: center;
+            justify-content: flex-start;
+            gap: 45px;
+        }
+        #orderComents{
+            display: flex;
+            align-items: center;
+            font-size: 13px;
+            gap: 7px;
+            color: #aaa;
+        }
+        .commentsBox{
+            display: flex;
+            margin: 35px auto;
+        }
+        #containerInputComment{
+            background-color: #181818;
+            border-bottom: 1px solid #303030;
+            width: 100%;
+        }
+        #comentarioInput{
+            background-color: #181818;
+            color: #aaa;
+            border: none;
+            font-family: 'Roboto','Noto',sans-serif;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 24px;
+            margin-left: 4px;
+            max-width: 100%;
+            width: 100%;
+            color: #ffffffe0;
+            outline: none;
+        }
+        .firstRowInfoComments{
+            display: flex;
+            gap: 5px;
+        }
+        .userComment{
+            font-size: 13px;
+            cursor: pointer;
+        }
+        .timeComment{
+            font-size: 13px;
+            color: #aaa;
+        }
+        .writtenComment{
+            font-size: 14px;
+            margin: 0px auto;
+        }
+        .interaccionRow{
+            display: flex;
+        }
+        .responder{
+            gap: 30px;
+            cursor: pointer;
+        }
     /* INICIO thumbnail section */
         #thumbnail-section{
             padding-top: 24px;

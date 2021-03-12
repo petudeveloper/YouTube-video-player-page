@@ -9,10 +9,11 @@
     <title>YouTube Embeded Video</title>
 </head>
 <body>
+    <!--Nav Bar-->
     <section id="nav-bar">
         <div id="container-dropdown-youtubeIcon">
-            <i class="fas fa-bars" style="font-size: 1.2rem;"></i>
-            <div id="ytIcon" style="font-size: 0.8rem;">
+            <i class="fas fa-bars forgotToPutALink" style="font-size: 1.2rem;"></i>
+            <div id="ytIcon" class="forgotToPutALink" style="font-size: 0.8rem;">
                 <i class="fab fa-youtube fa-2x" style="color: red;"></i>
                 <P>YouTube</P>
             </div>
@@ -21,18 +22,20 @@
             <div id="searchBoxContainer">
                 <input type="text" placeholder="Buscar"> 
             </div>
-            <div id="searchBtnContainer">
+            <div id="searchBtnContainer" class="forgotToPutALink">
                 <i class="fas fa-search" style="font-size: 0.9rem;"></i>
             </div>
         </div>
         <div id="nav-googleAcc">
-            <i class="fas fa-th googleIcons"></i>
-            <i class="fas fa-bell googleIcons"></i>
-            <img id="ytProfileImage" class="googleIcons" src="https://lh3.googleusercontent.com/ogw/ADGmqu8X49eAUE4udoYGkt1HC0oHWiw0kHsfhEFnedqR=s32-c-mo" alt="Imagen de usuario">
+            <i class="fas fa-th googleIcons forgotToPutALink"></i>
+            <i class="fas fa-bell googleIcons forgotToPutALink"></i>
+            <img id="ytProfileImage" class="googleIcons forgotToPutALink" src="https://lh3.googleusercontent.com/ogw/ADGmqu8X49eAUE4udoYGkt1HC0oHWiw0kHsfhEFnedqR=s32-c-mo" alt="Imagen de usuario">
         </div>
     </section>
+    <!--Main container-->
     <section id="main-container">
         <section id="video-row">
+            <!--Video section-->
             <section id="videoContainer">
                 <iframe width="640" height="360" src="https://www.youtube.com/embed/MQAOpZfdrek" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 <h2>Asi se siente - AM (Pre-View)</h2>
@@ -41,38 +44,38 @@
                         <p>4.005.103.691 visualizaciones</p>
                     </div>
                     <div class="likeBox">
-                        <i class="fas fa-thumbs-up like-size"></i>
+                        <i class="fas fa-thumbs-up like-size forgotToPutALink"></i>
                         <p>13.766</p>
                     </div>
                     <div class="likeBox">
-                        <i class="fas fa-thumbs-down like-size"></i>
+                        <i class="fas fa-thumbs-down like-size forgotToPutALink"></i>
                         <p>99</p>
                     </div>
                     <div class="likeBox">
-                        <i class="fas fa-share like-size"></i>
+                        <i class="fas fa-share like-size forgotToPutALink"></i>
                         <p>COMPARTIR</p>
                     </div>
                     <div class="likeBox">
-                        <i class="fas fa-list like-size"></i>
+                        <i class="fas fa-list like-size forgotToPutALink"></i>
                         <p>GUARDAR</p>
                     </div>
                     <div class="likeBox">
-                        <i class="fas fa-ellipsis-h like-size"></i>
+                        <i class="fas fa-ellipsis-h like-size forgotToPutALink"></i>
                     </div>
                 </div>
                 <div id="containerDescrip">
                     <div id="barra-superior">
                         <div id="canal">
                             <div id="userProfileImageContainer">
-                                <img id="userProfileImage" src="https://yt3.ggpht.com/ytc/AAUvwnhGY9njkrSDMiCh8In49i5vkBKOzl9yRlwpVJDW=s48-c-k-c0x00ffffff-no-rj" alt="Imagen de usuario">                       
+                                <img id="userProfileImage" class="forgotToPutALink" src="https://yt3.ggpht.com/ytc/AAUvwnhGY9njkrSDMiCh8In49i5vkBKOzl9yRlwpVJDW=s48-c-k-c0x00ffffff-no-rj" alt="Imagen de usuario">                       
                             </div>
                             <div id="containerInfoCanal">
-                                <p id="userName">AM Force</p>
+                                <p id="userName" class="forgotToPutALink">AM Force</p>
                                 <p id="userSuscriptors">879M suscriptores</p>
                             </div>
                         </div>
                         <div id="suscribeBtn">
-                            <p id="insideBtn">SUSCRIBIRME</p>
+                            <p id="insideBtn" class="forgotToPutALink">SUSCRIBIRME</p>
                         </div>    
                     </div>
                     <div id="containerParrafoDescr">
@@ -81,8 +84,126 @@
                     </div>
                 </div>
             </section>
-            <section id="comments"></section>            
+
+            <!--Comments Section-->
+            <section id="comments">
+                <div id="firstRowComments">
+                    <p id="numberOfComments">58321 comentarios</p>
+                    <div id="orderComents" class="forgotToPutALink">
+                        <i class="fas fa-sort-amount-down-alt fa-2x" style="font-size: 1.2rem;"></i>
+                        <p id="textOrderComments">ORDENAR POR</p>
+                    </div>
+                </div>
+                <div id="addRowComments" class="commentsBox">
+                    <img id="ytProfileImage" class="googleIcons forgotToPutALink" src="https://lh3.googleusercontent.com/ogw/ADGmqu8X49eAUE4udoYGkt1HC0oHWiw0kHsfhEFnedqR=s32-c-mo" alt="Imagen de usuario">
+                    <div id="containerInputComment">
+                        <input id="comentarioInput" type="text" placeholder="Agrega un comentario público...">
+                    </div>
+                </div>
+                <div id="comment1" class="commentsBox">
+                    <div class="imageCommentContainer">
+                        <img id="ytProfileImage" class="googleIcons" src="https://yt3.ggpht.com/ytc/AAUvwnizQ2zIQRRqrBYeBgtFQyuiPW0rPHyipiA-Hx9N=s48-c-k-c0x00ffffff-no-rj" alt="Imagen de usuario">
+                    </div>
+                    <div class="containerInfoComments">
+                        <div class="firstRowInfoComments">
+                            <p class="userComment">Pedro Infantes</p>
+                            <p class="timeComment">Hace 1 año</p>
+                        </div>
+                        <p class="writtenComment">Me parece un video espectacular, buen ritmo, buen flow. La buena parcero...</p>
+                        <div class="interaccionRow">
+                            <div class="likeBox">
+                                <i class="fas fa-thumbs-up"></i>
+                                <p>1k</p>
+                            </div>
+                            <div class="likeBox responder">
+                                <i class="fas fa-thumbs-down"></i>
+                                <p> RESPONDER</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="comment2" class="commentsBox">
+                    <div class="imageCommentContainer">
+                        <img id="ytProfileImage" class="googleIcons" src="https://yt3.ggpht.com/ytc/AAUvwnh5ziv0BBAs6tcI5B_BvXDA5cXgSiv-O5H-H8pR=s48-c-k-c0x00ffffff-no-rj" alt="Imagen de usuario">
+                    </div>
+                    <div class="containerInfoComments">
+                        <div class="firstRowInfoComments">
+                            <p class="userComment">Pepito Perez</p>
+                            <p class="timeComment">Hace 1 año</p>
+                        </div>
+                        <p class="writtenComment">Aweasome... Im your fan now =)</p>
+                        <div class="interaccionRow">
+                            <div class="likeBox">
+                                <i class="fas fa-thumbs-up"></i>
+                                <p>1k</p>
+                            </div>
+                            <div class="likeBox responder">
+                                <i class="fas fa-thumbs-down"></i>
+                                <p> RESPONDER</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="comment3" class="commentsBox">
+                    <div class="imageCommentContainer">
+                        <img id="ytProfileImage" class="googleIcons" src="https://yt3.ggpht.com/ytc/AAUvwnjWOiYfNf8X7wro1RH0bd-N6Rje6ANzUwU1a4IIB0M=s48-c-k-c0x00ffffff-no-rj" alt="Imagen de usuario">
+                    </div>
+                    <div class="containerInfoComments">
+                        <div class="firstRowInfoComments">
+                            <p class="userComment">Rap Gansta</p>
+                            <p class="timeComment">Hace 1 año</p>
+                        </div>
+                        <p class="writtenComment">OMG!!!! Sound so good, and the beat.... mmmmm delicious</p>
+                        <div class="interaccionRow">
+                            <div class="likeBox">
+                                <i class="fas fa-thumbs-up"></i>
+                                <p>1k</p>
+                            </div>
+                            <div class="likeBox responder">
+                                <i class="fas fa-thumbs-down"></i>
+                                <p> RESPONDER</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>            
         </section>
+<!--
+    Comentarios
+        comentario 1
+            foto
+            informacion
+                fila superior
+                    nombre
+                    hace cuanto
+                comentario(parrafo)
+                fila Interaccion
+                    boton me gusta
+                    boton no me gusta
+                    boton responder
+        comentario 2
+            foto
+            informacion
+                fila superior
+                    nombre
+                    hace cuanto
+                comentario(parrafo)
+                fila Interaccion
+                    boton me gusta
+                    boton no me gusta   
+                    boton responder
+        comentario 3
+                    foto
+                    informacion
+                        fila superior
+                            nombre
+                            hace cuanto
+                        comentario(parrafo)
+                        fila Interaccion
+                            boton me gusta
+                            boton no me gusta
+                            boton responder -->
+        <!-- Thumbnail Section -->
         <section id="thumbnail-section">
             <div id="thumbnails-container">
                 <ul>
@@ -196,46 +317,6 @@
             </div>
         </section>
     </section>
-    <!--
-    Comentarios
-        primera fila
-            numero de Comentarios
-            ordenar por
-        agregar un Comentario
-            foto
-            input
-        comentario 1
-            foto
-            informacion
-                fila superior
-                    nombre
-                    hace cuanto
-                comentario(parrafo)
-                fila Interaccion
-                    boton me gusta
-                    boton no me gusta
-                    boton responder
-        comentario 2
-            foto
-            informacion
-                fila superior
-                    nombre
-                    hace cuanto
-                comentario(parrafo)
-                fila Interaccion
-                    boton me gusta
-                    boton no me gusta   
-                    boton responder
-        comentario 3
-                    foto
-                    informacion
-                        fila superior
-                            nombre
-                            hace cuanto
-                        comentario(parrafo)
-                        fila Interaccion
-                            boton me gusta
-                            boton no me gusta
-                            boton responder -->
+    
 </body>
 </html>

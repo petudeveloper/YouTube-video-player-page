@@ -6,6 +6,13 @@ body{
     margin: 0px;
     font-family: 'Roboto', sans-serif;
 }
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
 /* INICIO Barra de Navegacion */
 #nav-bar{
     background-color: #202020;
@@ -91,7 +98,16 @@ body{
 /* INICIO Main Container */
 #main-container{
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 4fr 3fr;
+    justify-self: start;
+}
+
+#video-row{
+    justify-self: right;
+    width: 640px;
+    margin-left: 24px;
+    padding-top: 24px;
+    padding-right: 24px;
 }
 
     /* INICIO Video Container */
@@ -160,5 +176,31 @@ body{
         font-weight: bold;
     }
     /* FIN Video Container */
+
+    /* INICIO thumbnail section */
+        #thumbnail-section{
+            padding-top: 24px;
+            padding-right: 24px;
+        }
+        .miniVideoContainer{
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 8px;
+        }
+        .ContainerEmbededVideoDescriptio{
+            margin-left: 7px;
+        }
+        .embededTittle{
+            font-size: 14px;
+            font-weight: bold;
+            margin: 0px 0px 4px 0px;
+        }
+        .embededDescription{
+            font-size: 13px;
+            font-weight: lighter;
+            color: #aaa;
+            margin: 0px;
+        }
+    /* FIN thumbnail section */
 
 /* INICIO Main Container */

@@ -143,6 +143,7 @@ ul {
         margin: auto 10px;
         gap: 7px;
         color: #aaa;
+        cursor: pointer;
     }
 
     .like-size{
